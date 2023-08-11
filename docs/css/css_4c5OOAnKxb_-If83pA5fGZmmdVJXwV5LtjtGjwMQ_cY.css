@@ -2787,10 +2787,10 @@ body:not(.user-logged-in) [role=main] {
         z-index: -5;
     }
     h1.site-title {
-        font-size: 1.15rem;
+        font-size: 1.1rem;
     }
     span#research-on {
-        flex: .18
+        flex: .24
     }
     /*come back here*/
 }
