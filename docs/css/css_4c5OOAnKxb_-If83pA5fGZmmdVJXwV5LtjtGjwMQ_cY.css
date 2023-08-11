@@ -1087,6 +1087,18 @@ em,h1 em,h1 i,h2 em,h2 i,h3 em,h3 i,h4 em,h4 i,h5 em,h5 i,h6 em,h6 i {
     font-weight: 400;
 }
 
+h1.site-title {
+    font-family: 'Neue';
+    line-height: 1.15;
+    font-size: 1.75rem; 
+    /*display: block;*/
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-content: center;
+    align-items: center;
+}
+
 h2.news-item-title {
     font-family: 'Futura';
     font-style: normal;
@@ -1096,7 +1108,7 @@ h2.news-item-title {
     text-decoration: none;
 }
 
-#block-listings>h2,#block-listings>h2 a,#block-listingsarrowandaboutlink .field--name-field-link,#block-listingsarrowandaboutlink .field--name-field-listings-label,#block-mailchimpsignupform #mc_embed_signup form .indicates-required,#block-screenslate-local-tasks nav.tabs a,#block-sidebarpatreonlink .field--name-field-link>a,#block-views-block-upcoming-events-block-1 .view-footer>a,#block-views-block-upcoming-events-block-1 .view-header .field--name-field-link a,#block-virtualarthousecarousel .swiper-slide .field--name-field-content p,#block-virtualarthousecarousel h2,#listings .headline p,#listings .listings-list .dates,#listings .listings-list .media-titles .media-title .media-title-info,#listings .listings-list .series,#listings .listings-list .showtimes-container,#listings .venues-container .venue h3,#listings .venues-container .venue h3 a,#site-footer .copyright,#site-footer .flex-container #block-footer-subscribe .field--name-body a,#site-footer .flex-container #block-footer-subscribe .field--name-field-title,#site-footer .flex-container #block-footersocialmenu .menu .menu-item,#site-footer .flex-container #block-patreonlink .field--name-body p,#site-footer .site-name,#year-end-lists .contributor-list .field--name-field-contributor-type,#year-end-lists .contributor-list .field--name-field-heading,#year-end-lists .contributor-list .links a,#year-end-lists .contributor-list .links p,.back-link,.field--name-field-paragraphs .paragraph--type--columns-section-with-title .field--name-field-title,.field--name-field-paragraphs .paragraph--type--credits .field--name-field-heading,.field--name-field-paragraphs .paragraph--type--formatted-list-with-title .field--name-field-title,.field--name-field-paragraphs .paragraph--type--section-title .field--name-field-title,.layout-container form:not(.quickedit-field-form) .js-form-item .description,.layout-container form:not(.quickedit-field-form) .mc-field-group .description,.layout-sidebar-first #block-sidebar-and-slogan .site-name,.layout-sidebar-first .menu--left-sidebar-sub-navigation .menu-item,.layout-sidebar-first .menu--main .menu-item,.layout-sidebar-first .menu--secondary-navigation .menu-item,.layout-sidebar-first .path-search .search-help-link,.layout-sidebar-second .path-search .search-help-link,.menu--right-sidebar-menu .menu-item,.menu--sidebar-social-menu .menu-item a,.more-link a,.node--type-event .field--name-field-series a,.node--type-event .field--name-field-url a,.node--type-series h2 a,.node--view-mode-featured .author,.node--view-mode-featured .image .category,.node--view-mode-featured .image .field--name-field-categories,.node--view-mode-featured .image .field--name-field-publication-date,.node--view-mode-teaser .author,.node--view-mode-teaser .category,.node--view-mode-teaser .field--name-field-publication-date,.page-node-type-article .node--type-article .author,.page-node-type-article .node--type-article .image .category,.page-node-type-article .node--type-article .image .field--name-field-categories,.page-node-type-article .node--type-article .image .field--name-field-publication-date,.page-node-type-article .node--type-featured-event .author,.page-node-type-article .node--type-featured-event .image .category,.page-node-type-article .node--type-featured-event .image .field--name-field-categories,.page-node-type-article .node--type-featured-event .image .field--name-field-publication-date,.page-node-type-author h1,.page-node-type-featured-event .node--type-article .author,.page-node-type-featured-event .node--type-article .image .category,.page-node-type-featured-event .node--type-article .image .field--name-field-categories,.page-node-type-featured-event .node--type-article .image .field--name-field-publication-date,.page-node-type-featured-event .node--type-featured-event .author,.page-node-type-featured-event .node--type-featured-event .image .category,.page-node-type-featured-event .node--type-featured-event .image .field--name-field-categories,.page-node-type-featured-event .node--type-featured-event .image .field--name-field-publication-date,.page-node-type-venue .venue-listings-title,.path-articles h1,.path-events .block-views-blockupcoming-events-past-events article .event-header .field--name-field-date,.path-events .block-views-blockupcoming-events-past-events article .event-header .field--name-field-event-dates,.path-events .block-views-blockupcoming-events-past-events>h2,.path-search .pager,.path-taxonomy h1,.region-navigation .navigation-container .menu--main .menu-item,.region-navigation .navigation-container .menu--mobile-social-menu .menu-item,.region-navigation .navigation-container .menu--secondary-navigation .menu-item,.region-navigation .navigation-container .search-block-form .js-form-item .form-text,.region-navigation .navigation-container .search-block-form form .form-text,.region-navigation .navigation-container .site-name,.related-content>h2,.screenslate-daily .field--name-body p a,.screenslate-daily .field--name-field-title,.sidebar-link-with-image .more-link,.sidebar-link-with-image h3 a,.subscribe-popup .field--name-field-title,.subscribe-popup .subscribe-wrapper .subscribe-wrapper-inner a,body,h1 {
+#block-listings>h2,#block-listings>h2 a,#block-listingsarrowandaboutlink .field--name-field-link,#block-listingsarrowandaboutlink .field--name-field-listings-label,#block-mailchimpsignupform #mc_embed_signup form .indicates-required,#block-screenslate-local-tasks nav.tabs a,#block-sidebarpatreonlink .field--name-field-link>a,#block-views-block-upcoming-events-block-1 .view-footer>a,#block-views-block-upcoming-events-block-1 .view-header .field--name-field-link a,#block-virtualarthousecarousel .swiper-slide .field--name-field-content p,#block-virtualarthousecarousel h2,#listings .headline p,#listings .listings-list .dates,#listings .listings-list .media-titles .media-title .media-title-info,#listings .listings-list .series,#listings .listings-list .showtimes-container,#listings .venues-container .venue h3,#listings .venues-container .venue h3 a,#site-footer .copyright,#site-footer .flex-container #block-footer-subscribe .field--name-body a,#site-footer .flex-container #block-footer-subscribe .field--name-field-title,#site-footer .flex-container #block-footersocialmenu .menu .menu-item,#site-footer .flex-container #block-patreonlink .field--name-body p,#site-footer .site-name,#year-end-lists .contributor-list .field--name-field-contributor-type,#year-end-lists .contributor-list .field--name-field-heading,#year-end-lists .contributor-list .links a,#year-end-lists .contributor-list .links p,.back-link,.field--name-field-paragraphs .paragraph--type--columns-section-with-title .field--name-field-title,.field--name-field-paragraphs .paragraph--type--credits .field--name-field-heading,.field--name-field-paragraphs .paragraph--type--formatted-list-with-title .field--name-field-title,.field--name-field-paragraphs .paragraph--type--section-title .field--name-field-title,.layout-container form:not(.quickedit-field-form) .js-form-item .description,.layout-container form:not(.quickedit-field-form) .mc-field-group .description,.layout-sidebar-first #block-sidebar-and-slogan .site-name,.layout-sidebar-first .menu--left-sidebar-sub-navigation .menu-item,.layout-sidebar-first .menu--main .menu-item,.layout-sidebar-first .menu--secondary-navigation .menu-item,.layout-sidebar-first .path-search .search-help-link,.layout-sidebar-second .path-search .search-help-link,.menu--right-sidebar-menu .menu-item,.menu--sidebar-social-menu .menu-item a,.more-link a,.node--type-event .field--name-field-series a,.node--type-event .field--name-field-url a,.node--type-series h2 a,.node--view-mode-featured .author,.node--view-mode-featured .image .category,.node--view-mode-featured .image .field--name-field-categories,.node--view-mode-featured .image .field--name-field-publication-date,.node--view-mode-teaser .author,.node--view-mode-teaser .category,.node--view-mode-teaser .field--name-field-publication-date,.page-node-type-article .node--type-article .author,.page-node-type-article .node--type-article .image .category,.page-node-type-article .node--type-article .image .field--name-field-categories,.page-node-type-article .node--type-article .image .field--name-field-publication-date,.page-node-type-article .node--type-featured-event .author,.page-node-type-article .node--type-featured-event .image .category,.page-node-type-article .node--type-featured-event .image .field--name-field-categories,.page-node-type-article .node--type-featured-event .image .field--name-field-publication-date,.page-node-type-author h1,.page-node-type-featured-event .node--type-article .author,.page-node-type-featured-event .node--type-article .image .category,.page-node-type-featured-event .node--type-article .image .field--name-field-categories,.page-node-type-featured-event .node--type-article .image .field--name-field-publication-date,.page-node-type-featured-event .node--type-featured-event .author,.page-node-type-featured-event .node--type-featured-event .image .category,.page-node-type-featured-event .node--type-featured-event .image .field--name-field-categories,.page-node-type-featured-event .node--type-featured-event .image .field--name-field-publication-date,.page-node-type-venue .venue-listings-title,.path-articles h1,.path-events .block-views-blockupcoming-events-past-events article .event-header .field--name-field-date,.path-events .block-views-blockupcoming-events-past-events article .event-header .field--name-field-event-dates,.path-events .block-views-blockupcoming-events-past-events>h2,.path-search .pager,.path-taxonomy h1,.region-navigation .navigation-container .menu--main .menu-item,.region-navigation .navigation-container .menu--mobile-social-menu .menu-item,.region-navigation .navigation-container .menu--secondary-navigation .menu-item,.region-navigation .navigation-container .search-block-form .js-form-item .form-text,.region-navigation .navigation-container .search-block-form form .form-text,.region-navigation .navigation-container .site-name,.related-content>h2,.screenslate-daily .field--name-body p a,.screenslate-daily .field--name-field-title,.sidebar-link-with-image .more-link,.sidebar-link-with-image h3 a,.subscribe-popup .field--name-field-title,.subscribe-popup .subscribe-wrapper .subscribe-wrapper-inner a,body {
     font-family: 'Neue',sans-serif;
     font-weight: 400;
     text-align: center;
@@ -1115,7 +1127,7 @@ b em,b i,em b,em strong,strong em,strong i {
     font-style: italic,oblique;
 }
 
-#block-listings>h2,#block-listings>h2 a,#block-listingsarrowandaboutlink .field--name-field-listings-label,#block-sidebarpatreonlink .field--name-field-link>a,#block-views-block-upcoming-events-block-1 .view-header .field--name-field-link a,#block-virtualarthousecarousel h2,#listings .headline h2,#listings .headline p,#listings .venues-container .venue h3,#listings .venues-container .venue h3 a,#year-end-lists .contributor-list .field--name-field-heading,.back-link,.field--name-field-paragraphs .paragraph--type--columns-section-with-title .field--name-field-title,.field--name-field-paragraphs .paragraph--type--formatted-list-with-title .field--name-field-title,.field--name-field-paragraphs .paragraph--type--section-title .field--name-field-title,.layout-sidebar-first .menu--main .menu-item,.menu--right-sidebar-menu .menu-item,.page-node-type-author h1,.page-node-type-venue .venue-listings-title,.path-articles h1,.path-events .block-views-blockupcoming-events-past-events>h2,.path-taxonomy h1,.region-navigation .navigation-container .menu--main .menu-item,.region-navigation .navigation-container .search-block-form .js-form-item .form-text,.region-navigation .navigation-container .search-block-form form .form-text,.region-navigation .navigation-container .site-name,.related-content>h2,.screenslate-daily .field--name-body p a,.screenslate-daily .field--name-field-title,.sidebar-link-with-image h3 a,.subscribe-popup .field--name-field-title,h1 {
+#block-listings>h2,#block-listings>h2 a,#block-listingsarrowandaboutlink .field--name-field-listings-label,#block-sidebarpatreonlink .field--name-field-link>a,#block-views-block-upcoming-events-block-1 .view-header .field--name-field-link a,#block-virtualarthousecarousel h2,#listings .headline h2,#listings .headline p,#listings .venues-container .venue h3,#listings .venues-container .venue h3 a,#year-end-lists .contributor-list .field--name-field-heading,.back-link,.field--name-field-paragraphs .paragraph--type--columns-section-with-title .field--name-field-title,.field--name-field-paragraphs .paragraph--type--formatted-list-with-title .field--name-field-title,.field--name-field-paragraphs .paragraph--type--section-title .field--name-field-title,.layout-sidebar-first .menu--main .menu-item,.menu--right-sidebar-menu .menu-item,.page-node-type-author h1,.page-node-type-venue .venue-listings-title,.path-articles h1,.path-events .block-views-blockupcoming-events-past-events>h2,.path-taxonomy h1,.region-navigation .navigation-container .menu--main .menu-item,.region-navigation .navigation-container .search-block-form .js-form-item .form-text,.region-navigation .navigation-container .search-block-form form .form-text,.region-navigation .navigation-container .site-name,.related-content>h2,.screenslate-daily .field--name-body p a,.screenslate-daily .field--name-field-title,.sidebar-link-with-image h3 a,.subscribe-popup .field--name-field-title {
     font-size: 1.75rem; 
     line-height: .95;
     display: block;
@@ -1125,7 +1137,7 @@ b em,b i,em b,em strong,strong em,strong i {
 }
 
 #site-footer .copyright,#site-footer .flex-container #block-footer-subscribe .field--name-field-title,#site-footer .flex-container #block-footersocialmenu .menu .menu-item,#site-footer .flex-container #block-patreonlink .field--name-body p{
-    font-family: 'Neue',sans-serif;
+    font-family: 'Neue', sans-serif;
     font-size: 1.25rem; 
     line-height: .95;
     display: block;
@@ -1134,7 +1146,7 @@ b em,b i,em b,em strong,strong em,strong i {
 }
 
 #site-footer .site-name {
-    font-family: 'Neue',sans-serif;
+    font-family: 'Neue', sans-serif;
     font-size: 1.5rem; 
     line-height: .95;
     display: block;
@@ -6456,4 +6468,53 @@ p.pub  {
     padding-left: 10%;
     padding-right: 10%;
 }
+#main-site-title::after {
+    left: 0%;
+    position: absolute;
+    top: -15%;
+    bottom: 0rem;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 98%;
+    background-image: url(../images/molly-emrick/crops/svgs/toss.svg);
+    background-size: cover;
+    z-index: -10;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+@media screen and (max-width: 767px) {
+    #main-site-title::after {
+    left: 0%;
+    position: absolute;
+    top: -15%;
+    bottom: 0rem;
+    content: "";
+    display: block;
+    width: 50%;
+    height: 98%;
+    background-image: url(../images/molly-emrick/crops/svgs/toss.svg);
+    background-size: cover;
+    z-index: -10;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#::before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    top: 0rem;
+    bottom: 0rem;
+    content: "";
+    display: block;
+    width: 95%;
+    height: auto;
+    background-image: url(../images/molly-emrick/crops/svgs/toss.svg);
+    background-size: cover;
+    z-index: -10;
+    margin-left: 1px;
+}
+
 }
