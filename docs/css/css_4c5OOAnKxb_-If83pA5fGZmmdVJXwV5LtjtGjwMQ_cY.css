@@ -220,7 +220,7 @@ div.description {
 
 }
 p.description {
-    font-family: "Futura";
+    font-family: "Futura", sans-serif;
     font-size: 1.35em;
     font-style: normal;
     line-height: 1.2em;
