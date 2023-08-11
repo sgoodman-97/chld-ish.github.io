@@ -1,26 +1,43 @@
 @font-face {
     font-family: 'Neue';
-    src: url(../fonts/Neue/Neue-Regular.otf);
+    src: url(../fonts/Neue-Regular.otf);
+    src: url(../fonts/neue-regular-webfont.woff) format('woff');
+    src: url(../fonts/neue-regular-webfont.woff2) format('woff2');
 }
 @font-face {
     font-family: 'Neue';
     font-weight: bold;
-    src: url(../fonts/Neue/Neue-Bold.otf);
+    src: url(../fonts/Neue-Bold.otf);
+    src: url(../fonts/neue-bold-webfont.woff) format('woff');
+    src: url(../fonts/neue-bold-webfont.woff2) format('woff2');
 }
 @font-face {
     font-family: 'Neue';
     font-style: italic;
-    src: url(../fonts/Neue/Neue-RegularItalic.otf);
+    src: url(../fonts/Neue-RegularItalic.otf);
+    src: url(../fonts/neue-regularitalic-webfont.woff) format('woff');
+    src: url(../fonts/neue-regularitalic-webfont.woff2) format('woff2');
 }
 @font-face {
     font-family: 'Futura';
     font-style: normal;
     src: url(../fonts/FuturaPTBook.otf);
+    src: url(../fonts/futuraptbook-webfont.woff) format('woff');
+    src: url(../fonts/futuraptbook-webfont.woff2) format('woff2');
 }
 @font-face {
     font-family: 'Futura';
     font-weight: bold;
     src: url(../fonts/FuturaPTBold.otf);
+    src: url(../fonts/futuraptbold-webfont.woff) format('woff');
+    src: url(../fonts/futuraptbold-webfont.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Futura';
+    font-style: italic;
+    src: url(../fonts/FuturaPTBookOblique.otf);
+    src: url(../fonts/futuraptbookoblique-webfont.woff) format('woff');
+    src: url(../fonts/futuraptbookoblique-webfont.woff2) format('woff2');
 }
 html {
     font-family: sans-serif;
