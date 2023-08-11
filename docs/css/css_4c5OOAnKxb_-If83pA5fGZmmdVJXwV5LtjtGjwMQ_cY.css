@@ -3679,7 +3679,7 @@ html[data-whatintent=mouse] .page-node-type-article .node--type-article .author:
 .node--view-mode-featured .image .field--name-field-image {
     margin-right: auto;
     margin-left: auto;
-    width: calc(100% - 100px)
+    width: calc(100% - 10px)
 }
 
 @media screen and (min-width: 768px) {
@@ -4237,7 +4237,6 @@ html[data-whatintent=mouse] .node--view-mode-featured .author:hover a {
 
 #block-listings {
     position: relative;
-    padding: 2.25rem 12rem 0;
     left: -0.25%;
 }
 
