@@ -3,13 +3,6 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1121.6 428.9" style="enable-background:new 0 0 1121.6 428.9;" xml:space="preserve">
 <style type="text/css">
-@font-face {
-    font-family: 'Neue';
-    font-weight: bold;
-    src: url(../fonts/Neue-Bold.otf);
-    src: url(../fonts/neue-bold-webfont.woff) format('woff');
-    src: url(../fonts/neue-bold-webfont.woff2) format('woff2');
-}
 	.st0{fill:#221F20;}
 	.st1{font-family: Neue-Bold, Neue, sans-serif}
 	.st2{font-size:42px;}
