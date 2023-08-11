@@ -82,7 +82,7 @@ b,strong {
     font-weight: bold;
 }
 
-i {
+i, p.i, span.i {
     font-style: italic;
 }
 
@@ -2568,9 +2568,9 @@ b em,b i,em b,em strong,strong em,strong i {
     padding: 0
 }
 
-h2,p {
+/*h2,p {
     font-size: 1.25rem
-}
+}*/
 
 h1,h2 {
     margin: 0
