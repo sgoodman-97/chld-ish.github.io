@@ -6505,12 +6505,15 @@ a.item-label {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 p.pub  {
     line-height: 1.25;
     margin-bottom: 1.5rem;
     padding-left: 10%;
     padding-right: 10%;
+    font-size: 1.4rem;
 }
 #main-site-title::after {
     left: 0%;
@@ -6526,6 +6529,9 @@ p.pub  {
     z-index: -10;
     margin-left: 4px;
     margin-right: 4px;
+}
+span.poster-title {
+    font-style: italic;
 }
 
 }
