@@ -2,32 +2,27 @@
 title: Connect | Center for Human Language & Development
 body_classes: path-events
 ---
-:plain
-  <div id="block-screenslate-content" class="block block-system block-system-main-block">
-    <div class="views-element-container">
-      <div id="publications">
-        <div class="publications">
-        <div class="headline">
-          <h2>Contact</h2>
-        </div>
-        <p class="description">We're located on the seventh floor of 80 Fifth Avenue, New York, NY 10011.</p>
+#block-screenslate-content.block.block-system.block-system-main-block
+  .views-element-container
+    #publications
+      .publications
+        .headline
+          %h2 Contact
+        %p.description We're located on the seventh floor of 80 Fifth Avenue, New York, NY 10011.
+        %p.description For questions, please reach out to ruthe[at]newschool.edu.
+        %p
 
-        <p class="description">For questions, please reach out to ruthe[at]newschool.edu.</p>
+        .headline
+          %h2 For Students and Collaborators:
+        %iframe{src: 'https://docs.google.com/forms/d/e/1FAIpQLSf9wGW3iYDp-fA8MlByP7RhBl___KbEfgKaa_o47iHZMOpZQA/viewform?embedded=true',
+                width: 600, height: 'auto', frameborder: 0, marginheight: 0, marginwidth: 0}
+          Loading…
+        %p
 
-        <p></p>
-
-        <div class="headline">
-          <h2>For Students and Collaborators:</h2>
-        </div>
-
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf9wGW3iYDp-fA8MlByP7RhBl___KbEfgKaa_o47iHZMOpZQA/viewform?embedded=true" width="600" height="auto" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        <p></p>
-        <div class="headline">
-          <h2>For Families:</h2>
-        </div>
+        .headline
+          %h2 For Families:
         <!--Our research is made possible by the generous participation of -->
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSclfptb-tkxepIldUE10ikCyaIexdKQHzmQaKri80AbvXG0fQ/viewform?embedded=true" width="600" height="auto" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        <p></p>
-      </div>
-    </div>
-  </div>
+        %iframe{src: 'https://docs.google.com/forms/d/e/1FAIpQLSclfptb-tkxepIldUE10ikCyaIexdKQHzmQaKri80AbvXG0fQ/viewform?embedded=true',
+                width: 600, height: 'auto', frameborder: 0, marginheight: 0, marginwidth: 0}
+          Loading…
+        %p
