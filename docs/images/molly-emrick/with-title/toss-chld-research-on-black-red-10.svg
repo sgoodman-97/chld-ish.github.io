@@ -3,17 +3,24 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1121.6 428.9" style="enable-background:new 0 0 1121.6 428.9;" xml:space="preserve">
 <style type="text/css">
+	@font-face{
+	font-family: 'Neue-Bold';
+	src: url(../fonts/Neue-Bold.otf);
+    src: url(../fonts/neue-bold-webfont.woff) format('woff');
+    src: url(../fonts/neue-bold-webfont.woff2) format('woff2');
+	}
 	.st0{fill:#221F20;}
-	.st1{font-family: Neue-Bold, Neue, sans-serif}
+	.st1{font-family: 'Neue-Bold', Neue, sans-serif}
 	.st2{font-size:42px;}
 	.st3{fill:#E82E21;}
 	.st4{fill:none;}
 	.st5{fill:#221F20;stroke:#D34130;stroke-miterlimit:10;}
+	.st6{font-weight: bold;}
 </style>
 <g id="Layer_7">
-	<text transform="matrix(0.97 0 0 1 412.1001 103.71)" class="st0 st1 st2">CENTER FOR </text>
-	<text transform="matrix(0.97 0 0 1 322.8599 155.71)" class="st3 st1 st2">HUMAN LANGUAGE</text>
-	<text transform="matrix(0.97 0 0 1 355.4131 207.71)" class="st3 st1 st2">&amp; DEVELOPMENT</text>
+	<text transform="matrix(0.97 0 0 1 412.1001 103.71)" class="st0 st1 st2 st6">CENTER FOR </text>
+	<text transform="matrix(0.97 0 0 1 322.8599 155.71)" class="st3 st1 st2 st6">HUMAN LANGUAGE</text>
+	<text transform="matrix(0.97 0 0 1 355.4131 207.71)" class="st3 st1 st2 st6">&amp; DEVELOPMENT</text>
 	<path class="st0" d="M718.8,75.5c0.4,0.2,0.5,0.7,0.3,1c-0.1,0.2-0.4,0.4-0.6,0.4c0,0,0.1,0,0.1,0c0,0,0.2-0.1,0.2-0.1
 		c-0.1,0,0.3-0.3,0.2-0.2c-0.1,0.1,0.2-0.5,0.1-0.3c0,0.1,0-0.4,0-0.3s-0.1-0.2,0-0.1c0,0.1,0-0.1,0-0.1c0,0.1,0.3,0.3,0.5,0.6
 		c1,1.5,2.2,3.7,3.7,6.7c1.2,2.5,2.5,5.5,3.7,8.3c1.2,2.7,2.3,5,3.4,6.9c1,2,1.8,3.6,2.5,4.7c0.7,1.1,1.2,1.8,1.5,2.1
