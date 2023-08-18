@@ -28,7 +28,7 @@ $(MIDDLEMAN): $(GEM)
 
 .PHONY: middleman-init
 middleman-init:
-	env PATH=/usr/local/opt/ruby/bin:$$PATH $(MIDDLEMAN) init
+	env "PATH=/usr/local/opt/ruby/bin:$$PATH" $(MIDDLEMAN) init
 
 .PHONY: bundle
 bundle: $(BUNDLER)
@@ -36,7 +36,7 @@ bundle: $(BUNDLER)
 
 .PHONY: build
 build:
-	env PATH=/usr/local/opt/ruby/bin:$$PATH $(MIDDLEMAN) build --verbose
+	env "PATH=/usr/local/opt/ruby/bin:$$PATH" $(MIDDLEMAN) build --verbose
 
 #haml-help::
 #	$(HAML) help
@@ -56,7 +56,7 @@ build:
 #	rm -f $(PAGES)
 
 preview serve:
-	env PATH=/usr/local/opt/ruby/bin:$$PATH $(MIDDLEMAN) serve
+	env "PATH=/usr/local/opt/ruby/bin:$$PATH" $(MIDDLEMAN) serve
 
 validate valid lint:: build
 	./validate.command
