@@ -22,12 +22,15 @@
           <!--</a>-->
           <!--<div class="site-slogan">ddd</div>-->
           <!--</div>-->
+        </div>
       </div>
-    </div>
 - if content_for? :left_sidebar
   = yield_content :left_sidebar
+  :plain
+    </div>
 - else
   :plain
+    </div>
     <div class="sticky-sidebar">
       <div class="sticky-inner-wrapper">
         <div class="region region-sidebar-first-sticky">
@@ -43,7 +46,7 @@
             <h2 class="visually-hidden" id="block-leftsidebarsubnavigation-menu">Left Sidebar Sub Navigation</h2>
             <ul class="social">
               <li class="menu-item" style="border-bottom: 0.125rem dashed #000; border-top: 0.125rem dashed #000; padding-top: 0.625rem; padding-bottom: 0.625rem;">
-                <a href="https://scholar.google.com/citations?user=CvhKbjsAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                <a href="https://scholar.google.com/citations?user=CvhKbjsAAAAJ&amp;hl=en" target="_blank">Google Scholar</a>
               </li>
               <li class="menu-item" style="border-bottom: 0.125rem dashed #000; padding-top: 0.625rem; padding-bottom: 0.625rem;">
                 <a href="https://twitter.com/ruthefoushee/">Twitter</a>

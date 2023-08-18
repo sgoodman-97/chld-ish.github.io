@@ -27,8 +27,7 @@
       = partial 'header'
       .banner-desktop
         .region.region-banner
-          = partial 'acrobat_banner'
-      = partial 'banner_desktop'
+          = yield_content :top_banner
       %main{role: 'main'}
         = partial 'banner_mobile'
         = partial 'left_sidebar'
