@@ -7,16 +7,6 @@ GEM = $(RUBY_BINDIR)/gem
 BUNDLER = $(RUBY_BINDIR)/bundle
 
 BUNDLER_CACHE = vendor
-#HAML_PATH = $(BUNDLER_CACHE)/ruby/3.2.0/bin/haml
-#HAML = $(BUNDLER) exec haml
-#HAML_FLAGS = -I lib -r haml_init
-
-#ROOT_PATH = docs
-#PAGES_PATH = pages
-#PAGE_SOURCES = $(shell find $(PAGES_PATH) -name *.html.haml)
-#PAGES = $(patsubst $(PAGES_PATH)/%.haml, $(ROOT_PATH)/%, $(PAGE_SOURCES))
-
-#MIDDLEMAN_PATH = $(BUNDLER_CACHE)/ruby/3.2.0/bin/middleman
 MIDDLEMAN = /usr/local/lib/ruby/gems/$(RUBY_BASE_VER)/bin/middleman
 
 $(BUNDLER) $(GEM):
@@ -27,7 +17,7 @@ $(MIDDLEMAN): $(GEM)
 	$(GEM) install middleman
 
 .PHONY: middleman-init
-middleman-init:
+middleman-init: $(MIDDLEMAN)
 	env "PATH=/usr/local/opt/ruby/bin:$$PATH" $(MIDDLEMAN) init
 
 .PHONY: bundle
@@ -35,7 +25,7 @@ bundle: $(BUNDLER)
 	$(BUNDLER)
 
 .PHONY: build
-build:
+build: $(MIDDLEMAN)
 	env "PATH=/usr/local/opt/ruby/bin:$$PATH" $(MIDDLEMAN) build --verbose
 
 #haml-help::
@@ -55,7 +45,7 @@ build:
 #clean::
 #	rm -f $(PAGES)
 
-preview serve:
+preview serve: $(MIDDLEMAN)
 	env "PATH=/usr/local/opt/ruby/bin:$$PATH" $(MIDDLEMAN) serve
 
 validate valid lint:: build
