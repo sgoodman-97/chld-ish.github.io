@@ -9,11 +9,14 @@ BUNDLER = $(RUBY_BINDIR)/bundle
 BUNDLER_CACHE = vendor
 MIDDLEMAN = /usr/local/lib/ruby/gems/$(RUBY_BASE_VER)/bin/middleman
 
+.PHONY: gem
+gem: $(GEM)
+
 $(BUNDLER) $(GEM):
 	@echo 'Ruby $(RUBY_VER) is not installed. Please install it by running `brew install ruby`'
 	@false
 
-$(MIDDLEMAN): $(GEM)
+$(MIDDLEMAN): gem
 	$(GEM) install middleman
 
 .PHONY: middleman-init
