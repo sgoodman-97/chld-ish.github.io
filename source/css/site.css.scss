@@ -1078,6 +1078,21 @@ nav ul, footer ul {
     font-weight: bold;
 }
 
+nav#block block-menu navigation menu--mobile-social-menu {
+    font-family: 'Neue';
+    font-style: normal;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    padding: .625rem 0;
+    list-style: none;
+    text-align: right;
+    line-height: 1.5em;
+    width: 95%;
+    margin: auto;
+    color:  rgba(232, 46, 33, 1);
+    font-weight: bold;
+}
+
 ul.social {
     font-size: 1.1em;
 }
@@ -1211,7 +1226,7 @@ b em,b i,em b,em strong,strong em,strong i {
 
 #block-listingsarrowandaboutlink .field--name-field-link,#block-screenslate-local-tasks nav.tabs a,#block-views-block-upcoming-events-block-1 .view-footer>a,#block-virtualarthousecarousel .swiper-slide .field--name-field-content p,#listings .listings-list .dates,#listings .listings-list .media-titles .media-title .media-title-info,#listings .listings-list .series,#listings .listings-list .showtimes-container,#year-end-lists .contributor-list .field--name-field-contributor-type,#year-end-lists .contributor-list .links a,#year-end-lists .contributor-list .links p,.layout-container form:not(.quickedit-field-form) .js-form-item .description,.layout-container form:not(.quickedit-field-form) .mc-field-group .description,.layout-sidebar-first .menu--left-sidebar-sub-navigation .menu-item,.layout-sidebar-first .menu--secondary-navigation .menu-item,.layout-sidebar-first .path-search .search-help-link,.layout-sidebar-second .path-search .search-help-link,.menu--sidebar-social-menu .menu-item a,.more-link a,.node--type-event .field--name-field-series a,.node--type-event .field--name-field-url a,.node--type-series h2 a,.node--view-mode-teaser .author,.node--view-mode-teaser .category,.node--view-mode-teaser .field--name-field-categories,.node--view-mode-teaser .field--name-field-publication-date,.path-events .block-views-blockupcoming-events-past-events article .event-header .field--name-field-date,.path-events .block-views-blockupcoming-events-past-events article .event-header .field--name-field-event-dates,.path-search .pager,.region-navigation .navigation-container .menu--mobile-social-menu .menu-item,.region-navigation .navigation-container .menu--secondary-navigation .menu-item,.sidebar-link-with-image .more-link {
     font-family: 'Neue';
-    font-size: .1.5rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     text-align: center;
     text-transform: uppercase;
