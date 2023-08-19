@@ -1,0 +1,46 @@
+!!! 5
+:plain
+  <html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+      <meta name="MobileOptimized" content="width" />
+      <meta name="HandheldFriendly" content="true" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+%title= current_page.data.title or fail 'Page title was not defined in frontmatter'
+:plain
+      <link rel="stylesheet" media="all" href="/css/site.css" />
+      <script src="/js/jquery.js"></script>
+    </head>
+%body{class: current_page.data.body_classes || "path-events"}
+  :plain
+    <!--<a href="#main-content" class="visually-hidden focusable skip-link">
+    Skip to main content
+    </a>-->
+  .dialog-off-canvas-main-canvas{:'data-off-canvas-main-canvas' => true}
+    .layout-container
+      = partial 'header'
+      .banner-desktop
+        .region.region-banner
+          = yield_content :top_banner
+      %main{role: 'main'}
+        = partial 'banner_mobile'
+        = partial 'left_sidebar'
+        .layout-content
+          .region.region-content
+            = yield
+        - if content_for? :right_sidebar
+          = partial 'right_sidebar'
+      .layout-bottom
+        .region.region-bottom
+          = partial 'subscribe_banner'
+          = yield_content :bottom
+      = partial 'footer'
+  %script{src: '/js/site.js'}
+:plain
+  </html>

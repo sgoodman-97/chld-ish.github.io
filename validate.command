@@ -16,4 +16,4 @@ fi
 cd $0:h
 find docs -iname \*.html -print0 | \
 	xargs -0 -n 1 \
-	$tidy -q -o /dev/null -e --gnu-emacs true --strict-tags-attributes true --drop-empty-elements false
+	$tidy -q -e --gnu-emacs true --strict-tags-attributes true --drop-empty-elements false
