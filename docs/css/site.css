@@ -890,6 +890,10 @@ nav#block block-menu navigation menu--mobile-social-menu {
   color: #e82e21;
   font-weight: bold; }
 
+.region-navigation .navigation-container .menu--mobile-social-menu .menu-item {
+  font-size: 1.25rem;
+  line-height: 1.5; }
+
 ul.social {
   font-size: 1.1em; }
 
@@ -897,7 +901,7 @@ em, h1 em, h1 i, h2 em, h2 i, h3 em, h3 i, h4 em, h4 i, h5 em, h5 i, h6 em, h6 i
   font-family: 'Futura';
   font-weight: 400; }
 
-h1.site-title {
+#main-site-title {
   font-family: 'Neue';
   line-height: 1.15;
   font-size: 1.75rem;
@@ -938,6 +942,18 @@ b em, b i, em b, em strong, strong em, strong i {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold; }
+
+#main-image {
+  width: 90%;
+  /*margin-top: -10%;*/
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: .5%; }
+
+#main-site-title-and-image {
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%; }
 
 #site-footer .copyright, #site-footer .flex-container #block-footer-subscribe .field--name-field-title, #site-footer .flex-container #block-footersocialmenu .menu .menu-item, #site-footer .flex-container #block-patreonlink .field--name-body p {
   font-family: 'Neue', sans-serif;
@@ -2228,7 +2244,13 @@ body:not(.user-logged-in) [role=main] {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 2.625rem auto 0; } }
+    margin: 2.625rem auto 0; }
+  #main-site-title {
+    margin-top: 0%;
+    padding-bottom: 6%; }
+  #main-site-title-and-image {
+    margin-top: -8%;
+    padding-bottom: 1%; } }
 
 .layout-sidebar-first {
   display: none; }
@@ -2317,7 +2339,8 @@ body:not(.user-logged-in) [role=main] {
   padding: 1.875rem .625rem 0; }
 
 #research-on {
-  flex: .18; }
+  /*flex: .18;*/
+  flex: .36; }
 
 @media screen and (max-width: 767px) {
   .region-content {
@@ -2325,19 +2348,10 @@ body:not(.user-logged-in) [role=main] {
     padding-right: 0.75rem;
     padding-top: 7rem;
     border-bottom: .125rem solid #000; }
-  #main-site-title::after {
-    position: absolute;
-    top: 8%;
-    left: 4%;
-    height: 60%;
-    width: 90%;
-    content: "";
-    display: block;
-    background-image: url(../images/molly-emrick/crops/svgs/toss.svg);
-    background-size: cover;
-    z-index: -5; }
-  h1.site-title {
+  #main-site-title {
     font-size: 1.1rem; }
+  #main-site-title-and-image {
+    margin-top: 7rem; }
   span#research-on {
     flex: .24; }
   /*come back here*/ }
@@ -3102,26 +3116,26 @@ html[data-whatintent=mouse] .page-node-type-article .node--type-article .author:
   font-size: 1.1rem;
   line-height: 1.1429;
   margin-top: auto;
-  margin-bottom: .75rem;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
   display: block;
   color: #e82e21;
-  padding-top: 25%; }
+  padding-top: 0%; }
 
 @media screen and (min-width: 768px) {
   .node--view-mode-featured .author {
     margin-top: auto;
-    margin-bottom: 5%;
-    padding-top: 20%; } }
+    padding-top: 0%; } }
 
 @media screen and (max-width: 767px) {
   .node--view-mode-featured .author {
     margin-top: auto;
     margin-bottom: 5%;
     font-size: .9rem;
-    padding-top: 26%; } }
+    padding-top: 0%; }
+  #main-image {
+    margin-top: -18%; } }
 
 .node--view-mode-featured .author .field--name-field-author, .node--view-mode-featured .author .field__item {
   display: inline; }
@@ -3172,7 +3186,9 @@ html[data-whatintent=mouse] .node--view-mode-featured .author:hover a {
     padding-right: 0;
     padding-left: 0; }
   #site-footer .site-name {
-    margin-bottom: 3.125rem; } }
+    margin-bottom: 3.125rem; }
+  #research-on {
+    /*height: 150%;*/ } }
 
 #site-footer .flex-container {
   margin: 0 0 3.125rem; }
@@ -3754,6 +3770,15 @@ html[data-whatintent=mouse] .node--view-mode-featured .author:hover a {
 
 #listings .venues-container .venue h3, #listings .venues-container .venue h3 a {
   margin: 0 0 1.875rem; }
+
+#main-site-title {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 22%;
+  left: 50%;
+  margin-top: 5%;
+  width: 22ch;
+  font-size: 1.75rem; }
 
 @media screen and (min-width: 1024px) {
   .region-bottom #listings .listings-list {
@@ -5275,19 +5300,5 @@ article.profile .js-form-item, article.profile h4 {
     padding-left: 10%;
     padding-right: 10%;
     font-size: 1.4rem; }
-  #main-site-title::after {
-    left: 0%;
-    position: absolute;
-    top: -15%;
-    bottom: 0rem;
-    content: "";
-    display: block;
-    width: 95%;
-    height: 93%;
-    background-image: url(../images/molly-emrick/crops/svgs/toss.svg);
-    background-size: cover;
-    z-index: -10;
-    margin-left: 4px;
-    margin-right: 4px; }
   span.poster-title {
     font-style: italic; } }
