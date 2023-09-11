@@ -1,5 +1,5 @@
 ---
-title: Connect | Center for Human Language & Development
+title: Connect | Human Language & Development Lab
 body_classes: path-events
 ---
 - content_for :top_banner, partial('acrobat_banner')
@@ -15,6 +15,9 @@ body_classes: path-events
 
         .headline
           %h2 For Students and Collaborators:
+          = link_to 'https://docs.google.com/forms/d/e/1FAIpQLSf9wGW3iYDp-fA8MlByP7RhBl___KbEfgKaa_o47iHZMOpZQA/viewform?embedded=true', class: 'link' do
+            %span Click here to open form in new window.
+
         %iframe{src: 'https://docs.google.com/forms/d/e/1FAIpQLSf9wGW3iYDp-fA8MlByP7RhBl___KbEfgKaa_o47iHZMOpZQA/viewform?embedded=true',
                 width: 600, height: 'auto', frameborder: 0, marginheight: 0, marginwidth: 0}
           Loading…
@@ -22,7 +25,9 @@ body_classes: path-events
 
         .headline
           %h2 For Families:
-        <!--Our research is made possible by the generous participation of -->
+          = link_to 'https://docs.google.com/forms/d/e/1FAIpQLSclfptb-tkxepIldUE10ikCyaIexdKQHzmQaKri80AbvXG0fQ/viewform?embedded=true', class: 'link' do
+            %span Click here to open form in new window.
+            
         %iframe{src: 'https://docs.google.com/forms/d/e/1FAIpQLSclfptb-tkxepIldUE10ikCyaIexdKQHzmQaKri80AbvXG0fQ/viewform?embedded=true',
                 width: 600, height: 'auto', frameborder: 0, marginheight: 0, marginwidth: 0}
           Loading…

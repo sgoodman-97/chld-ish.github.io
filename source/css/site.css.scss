@@ -1157,10 +1157,10 @@ b em,b i,em b,em strong,strong em,strong i {
 }
 #main-image {
     width: 90%;
-    /*margin-top: -10%;*/
+    margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: .5%
+    padding-bottom: 1%
 }
 
 #main-site-title-and-image {
@@ -2677,11 +2677,10 @@ body:not(.user-logged-in) [role=main] {
 #main-site-title {
     position: absolute;
     transform: translate(-50%, -50%); // Anchor point is the center
-    top: 25%;
+    top: 26%;
     left: 50%;
-    /*margin-top: 5%;*/
     //padding-bottom: 6%;
-    width: 17ch;
+    width: 34%;
     font-size: 3.5vw;
     //font-size: 1.75rem;
 }
@@ -2700,6 +2699,7 @@ body:not(.user-logged-in) [role=main] {
 
     #main-site-title {
         font-size: 2.35vw;
+        top: 22%;
     }
 
     #main-site-title-and-image {
