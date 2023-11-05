@@ -1,55 +1,39 @@
 all: build
 
-RUBY_VER = 3.2.2_1
-RUBY_BASE_VER = 3.2.0
-RUBY_BINDIR = /usr/local/Cellar/ruby/$(RUBY_VER)/bin
-GEM = $(RUBY_BINDIR)/gem
+RUBY_BINDIR = /usr/local/opt/ruby/bin
+RUBY = $(RUBY_BINDIR)/ruby
 BUNDLER = $(RUBY_BINDIR)/bundle
 
 BUNDLER_CACHE = vendor
-MIDDLEMAN = /usr/local/lib/ruby/gems/$(RUBY_BASE_VER)/bin/middleman
+MIDDLEMAN = bin/middleman
 
-.PHONY: gem
-gem: $(GEM)
+TIDY = /usr/local/bin/tidy
+TIDY_FLAGS = -q -e --gnu-emacs true --strict-tags-attributes true --drop-empty-elements false
 
-$(BUNDLER) $(GEM):
-	@echo 'Ruby $(RUBY_VER) is not installed. Please install it by running `brew install ruby`'
+$(BUNDLER):
+	@echo 'Ruby from Homebrew is not installed. Please install it by running `brew install ruby`'
 	@false
 
-$(MIDDLEMAN): gem
-	$(GEM) install middleman
+$(MIDDLEMAN): $(BUNDLER)
+	$(BUNDLER) install --path $(BUNDLER_CACHE) --binstubs
 
 .PHONY: middleman-init
-middleman-init: $(MIDDLEMAN)
-	env "PATH=/usr/local/opt/ruby/bin:$$PATH" $(MIDDLEMAN) init
-
-.PHONY: bundle
-bundle: $(BUNDLER)
-	$(BUNDLER)
+middleman-init:: $(MIDDLEMAN)
+	$(RUBY) $(MIDDLEMAN) init
 
 .PHONY: build
 build: $(MIDDLEMAN)
-	env "PATH=/usr/local/opt/ruby/bin:$$PATH" $(MIDDLEMAN) build --verbose
-
-#haml-help::
-#	$(HAML) help
-#	$(HAML) help render
-#	$(HAML) render $(HAML_FLAGS) /dev/null
-#
-#.PHONY: pages
-#pages: $(PAGES)
-#
-#$(ROOT_PATH)/%.html: $(PAGES_PATH)/%.html.haml partials/layout.html.haml $(HAML_PATH)
-#	rm -f $@
-#	$(HAML) render $(HAML_FLAGS) $< > $@ || (rm -f $@; false)
-#	chmod 444 $@
-
-#.PHONY: clean
-#clean::
-#	rm -f $(PAGES)
+	$(RUBY) $(MIDDLEMAN) build --verbose
 
 preview serve: $(MIDDLEMAN)
-	env "PATH=/usr/local/opt/ruby/bin:$$PATH" $(MIDDLEMAN) serve
+	$(RUBY) $(MIDDLEMAN) serve
 
-validate valid lint:: build
-	./validate.command
+$(TIDY):
+	@echo 'Please install HTML5 Tidy using the command \`brew install tidy-html5\`.'
+	@echo 'Note that there is an ancient version of tidy installed with macOS into'
+	@echo '/usr/bin/tidy, but that is not the one we need, the one we need will be'
+	@echo 'installed via Homebrew at $(TIDY)'
+	false
+
+validate valid lint:: build $(TIDY)
+	find docs -iname \*.html -print0 | xargs -0 -n 1 $(TIDY) $(TIDY_FLAGS)
