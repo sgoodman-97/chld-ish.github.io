@@ -1041,6 +1041,12 @@ b em, b i, em b, em strong, strong em, strong i {
   background: #e82e21;
   border: 2px solid #e82e21; }
 
+a.name-and-site {
+  font-family: 'Neue',sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .8em; }
+
 .hamburger {
   padding: 15px;
   display: inline-block;
