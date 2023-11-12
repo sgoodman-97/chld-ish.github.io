@@ -207,6 +207,13 @@ p.description {
   font-style: normal;
   line-height: 1.2em; }
 
+p.students {
+  font-family: "Futura", sans-serif;
+  font-size: 1.3em;
+  font-style: normal;
+  line-height: 1em;
+  font-style: italic; }
+
 .action-links {
   margin: 1em 0;
   padding: 0;
@@ -3287,12 +3294,17 @@ html[data-whatintent=mouse] .node--view-mode-featured .author:hover a {
   margin: 0 auto; }
 
 #site-footer .copyright {
-  padding: 2%; }
+  padding: 1%;
+  background-color: #000;
+  color: #fff; }
 
 @media screen and (min-width: 768px) {
   #site-footer .copyright {
     padding: 0 14.5833333333%;
-    padding-top: 2%; } }
+    padding-top: .5%;
+    padding-bottom: .5%;
+    background-color: #000;
+    color: #fff; } }
 
 #site-footer .copyright a {
   text-decoration: none; }
@@ -5158,7 +5170,9 @@ html[data-whatintent=mouse] .subscribe-popup .subscribe-wrapper .subscribe-wrapp
 
 #block-views-block-upcoming-events-block-1 .view-footer > a {
   border-bottom: .125rem dashed #000;
+  /*rgba(232, 46, 33, 1);*/
   border-top: .125rem dashed #000;
+  /*rgba(232, 46, 33, 1);*/
   display: block;
   text-decoration: none;
   padding: .625rem 0;
