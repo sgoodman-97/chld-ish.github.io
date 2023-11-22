@@ -82,8 +82,18 @@ b,strong {
     font-weight: bold;
 }
 
-i, p.i, span.i {
+i, p.i, span.i, em, .i, p.description.i {
     font-style: italic;
+    font-weight: 400;
+}
+
+i b, b i, em b, b em, {
+    font-style: italic, oblique;
+    font-weight: bold;
+}
+
+r, .r {
+    color: rgba(232, 46, 33, 1);
 }
 
 span.sc {
@@ -1148,10 +1158,6 @@ b,b em,b i,em b,em strong,strong,strong em,strong i {
 
 b,strong {
     font-weight: bold;
-}
-
-b em,b i,em b,em strong,strong em,strong i {
-    font-style: italic,oblique;
 }
 
 #block-listings>h2,#block-listings>h2 a,#block-listingsarrowandaboutlink .field--name-field-listings-label,#block-sidebarpatreonlink .field--name-field-link>a,#block-views-block-upcoming-events-block-1 .view-header .field--name-field-link a,#block-virtualarthousecarousel h2,#listings .headline h2,#listings .headline p,#listings .venues-container .venue h3,#listings .venues-container .venue h3 a,#year-end-lists .contributor-list .field--name-field-heading,.back-link,.field--name-field-paragraphs .paragraph--type--columns-section-with-title .field--name-field-title,.field--name-field-paragraphs .paragraph--type--formatted-list-with-title .field--name-field-title,.field--name-field-paragraphs .paragraph--type--section-title .field--name-field-title,.layout-sidebar-first .menu--main .menu-item,.menu--right-sidebar-menu .menu-item,.page-node-type-author h1,.page-node-type-venue .venue-listings-title,.path-articles h1,.path-events .block-views-blockupcoming-events-past-events>h2,.path-taxonomy h1,.region-navigation .navigation-container .menu--main .menu-item,.region-navigation .navigation-container .search-block-form .js-form-item .form-text,.region-navigation .navigation-container .search-block-form form .form-text,.region-navigation .navigation-container .site-name,.related-content>h2,.screenslate-daily .field--name-body p a,.screenslate-daily .field--name-field-title,.sidebar-link-with-image h3 a,.subscribe-popup .field--name-field-title {
@@ -6610,6 +6616,23 @@ p.pub  {
     font-size: 1.25rem;
     text-align: justify;
     font-weight: normal;
+}
+p.citation  {
+    font-size: 1rem;
+    text-transform: none;
+    color: #FFF;
+    margin:0;
+    line-height: 1.25;
+    margin-bottom: 1.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.4rem;
+}
+p.note {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.2em;
 }
 h3.project {
     text-transform: uppercase;
