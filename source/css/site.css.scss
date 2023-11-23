@@ -85,6 +85,7 @@ b,strong {
 i, p.i, span.i, em, .i, p.description.i {
     font-style: italic;
     font-weight: 400;
+    word-break: break-word;
 }
 
 i b, b i, em b, b em, {
@@ -269,6 +270,37 @@ p.students {
     line-height: 1em;
     font-style: italic;
 }
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+.news-item {
+  flex-direction: column;
+  flex-basis: 100%;
+  font-size: 1.1rem;
+  font-weight: normal;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+h3.date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    /*color: rgba(232, 46, 33, 1)*/
+}
+
 .action-links {
     margin: 1em 0;
     padding: 0;
@@ -2790,6 +2822,15 @@ body:not(.user-logged-in) [role=main] {
         min-width: 12.5rem;
         width: 12.5rem;
         padding: 0 .75rem
+    }
+    .date {
+        flex: 1
+    }
+    .news-item {
+        flex: 4;
+        text-align: left;
+        padding-left: 2%;
+        padding-right: 5%;
     }
 }
 
