@@ -73,8 +73,16 @@ abbr[title] {
 b, strong {
   font-weight: bold; }
 
-i, p.i, span.i {
-  font-style: italic; }
+i, p.i, span.i, em, .i, p.description.i {
+  font-style: italic;
+  font-weight: 400; }
+
+i b, b i, em b, b em {
+  font-style: italic, oblique;
+  font-weight: bold; }
+
+r, .r {
+  color: #e82e21; }
 
 span.sc {
   text-transform: uppercase;
@@ -190,6 +198,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+table#news {
+  text-align: left;
+  font-size: 1.1rem;
+  padding-top: 2%; }
+
 td, th {
   padding: 0; }
 
@@ -209,7 +222,7 @@ p.description {
 
 p.students {
   font-family: "Futura", sans-serif;
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-style: normal;
   line-height: 1em;
   font-style: italic; }
@@ -632,6 +645,16 @@ th.is-active img {
 td.is-active {
   background-color: #ddd; }
 
+td.date {
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  vertical-align: top; }
+
+td.news-item {
+  font-weight: normal;
+  padding-bottom: 2rem;
+  vertical-align: top; }
+
 div.tabs {
   margin: 1em 0; }
 
@@ -904,6 +927,15 @@ nav#block block-menu navigation menu--mobile-social-menu {
 ul.social {
   font-size: 1.1em; }
 
+li.news-item {
+  margin-bottom: 1.75rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem; }
+
+li.news-item::marker {
+  content: '*  '; }
+
 em, h1 em, h1 i, h2 em, h2 i, h3 em, h3 i, h4 em, h4 i, h5 em, h5 i, h6 em, h6 i {
   font-family: 'Futura';
   font-weight: 400; }
@@ -938,9 +970,6 @@ b, b em, b i, em b, em strong, strong, strong em, strong i {
 
 b, strong {
   font-weight: bold; }
-
-b em, b i, em b, em strong, strong em, strong i {
-  font-style: italic,oblique; }
 
 #block-listings > h2, #block-listings > h2 a, #block-listingsarrowandaboutlink .field--name-field-listings-label, #block-sidebarpatreonlink .field--name-field-link > a, #block-views-block-upcoming-events-block-1 .view-header .field--name-field-link a, #block-virtualarthousecarousel h2, #listings .headline h2, #listings .headline p, #listings .venues-container .venue h3, #listings .venues-container .venue h3 a, #year-end-lists .contributor-list .field--name-field-heading, .back-link, .field--name-field-paragraphs .paragraph--type--columns-section-with-title .field--name-field-title, .field--name-field-paragraphs .paragraph--type--formatted-list-with-title .field--name-field-title, .field--name-field-paragraphs .paragraph--type--section-title .field--name-field-title, .layout-sidebar-first .menu--main .menu-item, .menu--right-sidebar-menu .menu-item, .page-node-type-author h1, .page-node-type-venue .venue-listings-title, .path-articles h1, .path-events .block-views-blockupcoming-events-past-events > h2, .path-taxonomy h1, .region-navigation .navigation-container .menu--main .menu-item, .region-navigation .navigation-container .search-block-form .js-form-item .form-text, .region-navigation .navigation-container .search-block-form form .form-text, .region-navigation .navigation-container .site-name, .related-content > h2, .screenslate-daily .field--name-body p a, .screenslate-daily .field--name-field-title, .sidebar-link-with-image h3 a, .subscribe-popup .field--name-field-title {
   font-size: 1.75rem;
@@ -2529,7 +2558,15 @@ body:not(.user-logged-in) [role=main] {
     padding: .9375rem 0 .3125rem; }
   .page-node-type-article h1, .page-node-type-featured-event h1 {
     padding-right: 20.8333333333%;
-    padding-left: 20.8333333333%; } }
+    padding-left: 20.8333333333%; }
+  #news {
+    padding-left: 13rem;
+    padding-right: 13rem; } }
+
+@media screen and (max-width: 1023px) {
+  #news {
+    padding-left: 5%;
+    padding-right: 5%; } }
 
 @media screen and (min-width: 1200px) {
   .page-node-type-article h1, .page-node-type-featured-event h1 {
@@ -5337,6 +5374,21 @@ article.profile .js-form-item, article.profile h4 {
     font-size: 1.25rem;
     text-align: justify;
     font-weight: normal; }
+  p.citation {
+    font-size: 1rem;
+    text-transform: none;
+    color: #FFF;
+    margin: 0;
+    line-height: 1.25;
+    margin-bottom: 1.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.4rem; }
+  p.note {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.2em; }
   h3.project {
     text-transform: uppercase;
     text-align: center; }
