@@ -1,7 +1,7 @@
 all: build
 
 HOMEBREW_PREFIX = /opt/homebrew
-RUBY_BINDIR = $(HOMEBREW_PREFIX}/opt/ruby/bin
+RUBY_BINDIR = $(HOMEBREW_PREFIX)/opt/ruby/bin
 RUBY = $(RUBY_BINDIR)/ruby
 BUNDLER = $(RUBY_BINDIR)/bundle
 
