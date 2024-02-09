@@ -1,13 +1,14 @@
 all: build
 
-RUBY_BINDIR = /usr/local/opt/ruby/bin
+HOMEBREW_PREFIX = /opt/homebrew
+RUBY_BINDIR = $(HOMEBREW_PREFIX}/opt/ruby/bin
 RUBY = $(RUBY_BINDIR)/ruby
 BUNDLER = $(RUBY_BINDIR)/bundle
 
 BUNDLER_CACHE = vendor
 MIDDLEMAN = bin/middleman
 
-TIDY = /usr/local/bin/tidy
+TIDY = $(HOMEBREW_PREFIX)/bin/tidy
 TIDY_FLAGS = -q -e --gnu-emacs true --strict-tags-attributes true --drop-empty-elements false
 
 $(BUNDLER):
