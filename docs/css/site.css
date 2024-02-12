@@ -243,7 +243,7 @@ p.students {
 .news-item {
   flex-direction: column;
   flex-basis: 100%;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: normal;
   padding-left: 5%;
   padding-right: 5%; }
@@ -632,6 +632,10 @@ ul.menu {
 
 ul.menu a.is-active {
   color: #000; }
+
+ul.news-sublist li {
+  margin: 10px 0;
+  font-size: .9rem; }
 
 .more-link {
   display: block;
