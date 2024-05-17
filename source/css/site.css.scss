@@ -1220,15 +1220,6 @@ h2.news-item-title {
     text-decoration: none;
 }
 
-h2.talk-title {
-    font-family: 'Futura';
-    font-style: normal;
-    line-height: 1;
-    font-weight: 400;
-    font-size:  1.5em;
-    text-decoration: none;
-}
-
 #block-listings>h2,#block-listings>h2 a,#block-listingsarrowandaboutlink .field--name-field-link,#block-listingsarrowandaboutlink .field--name-field-listings-label,#block-mailchimpsignupform #mc_embed_signup form .indicates-required,#block-screenslate-local-tasks nav.tabs a,#block-sidebarpatreonlink .field--name-field-link>a,#block-views-block-upcoming-events-block-1 .view-footer>a,#block-views-block-upcoming-events-block-1 .view-header .field--name-field-link a,#block-virtualarthousecarousel .swiper-slide .field--name-field-content p,#block-virtualarthousecarousel h2,#listings .headline p,#listings .listings-list .dates,#listings .listings-list .media-titles .media-title .media-title-info,#listings .listings-list .series,#listings .listings-list .showtimes-container,#listings .venues-container .venue h3,#listings .venues-container .venue h3 a,#site-footer .copyright,#site-footer .flex-container #block-footer-subscribe .field--name-body a,#site-footer .flex-container #block-footer-subscribe .field--name-field-title,#site-footer .flex-container #block-footersocialmenu .menu .menu-item,#site-footer .flex-container #block-patreonlink .field--name-body p,#site-footer .site-name,#year-end-lists .contributor-list .field--name-field-contributor-type,#year-end-lists .contributor-list .field--name-field-heading,#year-end-lists .contributor-list .links a,#year-end-lists .contributor-list .links p,.back-link,.field--name-field-paragraphs .paragraph--type--columns-section-with-title .field--name-field-title,.field--name-field-paragraphs .paragraph--type--credits .field--name-field-heading,.field--name-field-paragraphs .paragraph--type--formatted-list-with-title .field--name-field-title,.field--name-field-paragraphs .paragraph--type--section-title .field--name-field-title,.layout-container form:not(.quickedit-field-form) .js-form-item .description,.layout-container form:not(.quickedit-field-form) .mc-field-group .description,.layout-sidebar-first #block-sidebar-and-slogan .site-name,.layout-sidebar-first .menu--left-sidebar-sub-navigation .menu-item,.layout-sidebar-first .menu--main .menu-item,.layout-sidebar-first .menu--secondary-navigation .menu-item,.layout-sidebar-first .path-search .search-help-link,.layout-sidebar-second .path-search .search-help-link,.menu--right-sidebar-menu .menu-item,.menu--sidebar-social-menu .menu-item a,.more-link a,.node--type-event .field--name-field-series a,.node--type-event .field--name-field-url a,.node--type-series h2 a,.node--view-mode-featured .author,.node--view-mode-featured .image .category,.node--view-mode-featured .image .field--name-field-categories,.node--view-mode-featured .image .field--name-field-publication-date,.node--view-mode-teaser .author,.node--view-mode-teaser .category,.node--view-mode-teaser .field--name-field-publication-date,.page-node-type-article .node--type-article .author,.page-node-type-article .node--type-article .image .category,.page-node-type-article .node--type-article .image .field--name-field-categories,.page-node-type-article .node--type-article .image .field--name-field-publication-date,.page-node-type-article .node--type-featured-event .author,.page-node-type-article .node--type-featured-event .image .category,.page-node-type-article .node--type-featured-event .image .field--name-field-categories,.page-node-type-article .node--type-featured-event .image .field--name-field-publication-date,.page-node-type-author h1,.page-node-type-featured-event .node--type-article .author,.page-node-type-featured-event .node--type-article .image .category,.page-node-type-featured-event .node--type-article .image .field--name-field-categories,.page-node-type-featured-event .node--type-article .image .field--name-field-publication-date,.page-node-type-featured-event .node--type-featured-event .author,.page-node-type-featured-event .node--type-featured-event .image .category,.page-node-type-featured-event .node--type-featured-event .image .field--name-field-categories,.page-node-type-featured-event .node--type-featured-event .image .field--name-field-publication-date,.page-node-type-venue .venue-listings-title,.path-articles h1,.path-events .block-views-blockupcoming-events-past-events article .event-header .field--name-field-date,.path-events .block-views-blockupcoming-events-past-events article .event-header .field--name-field-event-dates,.path-events .block-views-blockupcoming-events-past-events>h2,.path-search .pager,.path-taxonomy h1,.region-navigation .navigation-container .menu--main .menu-item,.region-navigation .navigation-container .menu--mobile-social-menu .menu-item,.region-navigation .navigation-container .menu--secondary-navigation .menu-item,.region-navigation .navigation-container .search-block-form .js-form-item .form-text,.region-navigation .navigation-container .search-block-form form .form-text,.region-navigation .navigation-container .site-name,.related-content>h2,.screenslate-daily .field--name-body p a,.screenslate-daily .field--name-field-title,.sidebar-link-with-image .more-link,.sidebar-link-with-image h3 a,.subscribe-popup .field--name-field-title,.subscribe-popup .subscribe-wrapper .subscribe-wrapper-inner a,body {
     font-family: 'Neue',sans-serif;
     font-weight: bold;
@@ -1349,7 +1340,7 @@ b,strong {
 }
 .node--view-mode-teaser .author {
     font-family: 'Futura';
-    font-size: 1.17rem;
+    font-size: 1.2rem;
     line-height: 1;
     text-align: center;
     font-weight: normal;
@@ -6804,13 +6795,19 @@ h3.project {
 span.poster-title {
     font-style: italic;
 }
-span.dept {
+}
+a.dept {
     font-family:Futura;
     font-weight: 200;
-    font-style: italic;
     font-size: 1.1rem;
     line-height: 1;
-    padding-bottom:2%
+    padding-bottom:2%;
+    text-decoration: none;
 }
-
+h2.talk-title a, h2.talk-title {
+    font-family: 'Futura';
+    font-style: italic;
+    line-height: 1;
+    font-weight: 400;
+    text-decoration: none;
 }
