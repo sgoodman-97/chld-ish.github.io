@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 901.99 557.82">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-5, .cls-6, .cls-3, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17 {
+        isolation: isolate;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17 {
+        font-family: Neue-Bold, Neue;
+        font-weight: 700;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-12 {
+        font-size: 116px;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-12, .cls-13 {
+        fill: #e82e21;
+      }
+
+      .cls-6 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8, .cls-9, .cls-10, .cls-11, .cls-14, .cls-15, .cls-16 {
+        fill: #231f20;
+      }
+
+      .cls-8, .cls-9, .cls-10, .cls-15 {
+        font-size: 119px;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-11, .cls-13, .cls-14, .cls-16, .cls-17 {
+        font-size: 120px;
+      }
+
+      .cls-12 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-17 {
+        fill: gray;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" y="2" width="900" height="540"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" y="2" width="900" height="540"/>
+    </clipPath>
+  </defs>
+  <g class="cls-4">
+    <g>
+      <g class="cls-3">
+        <text class="cls-16" transform="translate(.84 250.2)"><tspan x="0" y="0">LANG</tspan></text>
+        <text class="cls-11" transform="translate(382.08 250.2)"><tspan x="0" y="0">U</tspan></text>
+        <text class="cls-14" transform="translate(486.95 250.2)"><tspan x="0" y="0">A</tspan></text>
+        <text class="cls-16" transform="translate(580.68 250.2)"><tspan x="0" y="0">GE</tspan></text>
+      </g>
+      <g class="cls-3">
+        <text class="cls-5" transform="translate(.91 388)"><tspan x="0" y="0">DEV</tspan></text>
+        <text class="cls-5" transform="translate(237.78 388)"><tspan x="0" y="0">E</tspan></text>
+        <text class="cls-12" transform="translate(305.18 388)"><tspan x="0" y="0">L</tspan></text>
+        <text class="cls-6" transform="translate(365.73 388)"><tspan x="0" y="0">O</tspan></text>
+        <text class="cls-6" transform="translate(460.38 388)"><tspan x="0" y="0">P</tspan></text>
+        <text class="cls-5" transform="translate(533.35 388)"><tspan x="0" y="0">ME</tspan></text>
+        <text class="cls-5" transform="translate(721.38 388)"><tspan x="0" y="0">N</tspan></text>
+        <text class="cls-7" transform="translate(823.58 388)"><tspan x="0" y="0">T</tspan></text>
+      </g>
+      <g class="cls-3">
+        <text class="cls-10" transform="translate(1.49 532)"><tspan x="0" y="0">LABOR</tspan></text>
+        <text class="cls-15" transform="translate(452.02 532)"><tspan x="0" y="0">A</tspan></text>
+        <text class="cls-9" transform="translate(538.53 532)"><tspan x="0" y="0">T</tspan></text>
+        <text class="cls-10" transform="translate(614.93 532)"><tspan x="0" y="0">O</tspan></text>
+        <text class="cls-8" transform="translate(721.43 532)"><tspan x="0" y="0">R</tspan></text>
+        <text class="cls-10" transform="translate(807.95 532)"><tspan x="0" y="0">Y</tspan></text>
+      </g>
+      <g class="cls-3">
+        <text class="cls-13" transform="translate(335.16 108)"><tspan x="0" y="0">HUMAN</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="cls-3">
+    <text class="cls-17" transform="translate(776.04 249.6)"><tspan x="0" y="0">&amp;</tspan></text>
+  </g>
+  <g class="cls-2">
+    <g class="cls-3">
+      <text class="cls-16" transform="translate(13.58 108)"><tspan x="0" y="0">THE</tspan></text>
+    </g>
+  </g>
+</svg>
