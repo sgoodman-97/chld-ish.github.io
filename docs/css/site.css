@@ -5424,7 +5424,9 @@ article.profile .js-form-item, article.profile h4 {
   a.item-label {
     font-family: 'Neue';
     font-weight: normal;
-    font-style: normal; }
+    font-style: normal;
+    target: _blank;
+    rel: noopener noreferrer; }
   #publications .headline > h2, #jobs .headline > h2 {
     font-family: 'Neue';
     border-bottom: 0.125rem dashed #000;
