@@ -6773,6 +6773,21 @@ div.abstract  {
     font-weight: normal;
     padding-bottom: 10%;
 }
+div.bio  {
+    font-family: 'Futura';
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.25;
+    font-size: 1.25rem;
+    text-align: justify;
+    font-weight: normal;
+    padding-bottom: 10%;
+    margin-top:1%
+}
+p.bio {
+    margin-top:0%
+}
 p.citation  {
     font-size: 1rem;
     text-transform: none;
@@ -6793,6 +6808,13 @@ p.note {
 h3.project {
     text-transform: uppercase;
     text-align: center;
+}
+h2.contact {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    font-color:#fce57e;
 }
 span.poster-title {
     font-style: italic;
