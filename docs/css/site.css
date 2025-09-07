@@ -219,7 +219,8 @@ p.description {
   font-family: "Futura", sans-serif;
   font-size: 1.4em;
   font-style: normal;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+  text-align: justify; }
 
 p.students {
   font-family: "Futura", sans-serif;
